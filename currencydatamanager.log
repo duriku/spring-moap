@@ -1,0 +1,894 @@
+2014-12-23 19:58:01.631  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Starting Application on duri-pc with PID 4004 (started by Duri in C:\repo\=AUTO TRADING=\CurrencyDataManager)
+2014-12-23 19:58:01.750  INFO ${PID:- } [main] --- ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37172b0b: startup date [Tue Dec 23 19:58:01 CET 2014]; root of context hierarchy
+2014-12-23 19:58:02.084  WARN ${PID:- } [main] --- .i.s.PathMatchingResourcePatternResolver : Skipping [C:\repo\=AUTO TRADING=\CurrencyDataManager\target\currencydatamanager-0.0.1-SNAPSHOT.jar] because it does not denote a directory
+2014-12-23 19:58:02.663  INFO ${PID:- } [main] --- o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2014-12-23 19:58:03.462  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'applicationConfig' of type [class duri.com.autotrader.currencydatamanager.config.ApplicationConfig$$EnhancerBySpringCGLIB$$a7d6a267] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 19:58:03.602  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f3b8e02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 19:58:03.634  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 19:58:03.654  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 19:58:03.665  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 19:58:04.309  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080/http
+2014-12-23 19:58:04.563  INFO ${PID:- } [main] --- o.apache.catalina.core.StandardService   : Starting service Tomcat
+2014-12-23 19:58:04.565  INFO ${PID:- } [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.15
+2014-12-23 19:58:04.781  INFO ${PID:- } [localhost-startStop-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2014-12-23 19:58:04.782  INFO ${PID:- } [localhost-startStop-1] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3036 ms
+2014-12-23 19:58:05.715  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2014-12-23 19:58:05.752  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2014-12-23 19:58:05.754  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2014-12-23 19:58:05.870  INFO ${PID:- } [main] --- o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: oracle.jdbc.OracleDriver
+2014-12-23 19:58:06.049  INFO ${PID:- } [main] --- j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2014-12-23 19:58:06.078  INFO ${PID:- } [main] --- o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2014-12-23 19:58:06.298  INFO ${PID:- } [main] --- org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.7.Final}
+2014-12-23 19:58:06.304  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2014-12-23 19:58:06.308  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2014-12-23 19:58:06.678  INFO ${PID:- } [main] --- o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2014-12-23 19:58:07.390  INFO ${PID:- } [main] --- org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2014-12-23 19:58:07.705  INFO ${PID:- } [main] --- o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2014-12-23 19:58:07.711  WARN ${PID:- } [main] --- org.hibernate.cfg.SettingsFactory        : Unrecognized value for "hibernate.hbm2ddl.auto": CREATE
+2014-12-23 19:58:08.572  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 19:58:08.815  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String duri.com.autotrader.currencydatamanager.Application.home()
+2014-12-23 19:58:08.819  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/listUsers],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.listUsers()
+2014-12-23 19:58:08.821  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/currentDate],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.getCurrentDate()
+2014-12-23 19:58:08.822  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/addUser],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public void duri.com.autotrader.currencydatamanager.web.controller.MyRestController.addUser(duri.com.autotrader.currencydatamanager.domain.dto.UserDTO)
+2014-12-23 19:58:08.827  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2014-12-23 19:58:08.830  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2014-12-23 19:58:08.876  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 19:58:08.877  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 19:58:08.985  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37172b0b: startup date [Tue Dec 23 19:58:01 CET 2014]; root of context hierarchy
+2014-12-23 19:58:09.439  INFO ${PID:- } [main] --- o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2014-12-23 19:58:09.514  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080/http
+2014-12-23 19:58:09.517  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Started Application in 8.317 seconds (JVM running for 9.162)
+2014-12-23 19:58:32.060  INFO ${PID:- } [http-nio-18080-exec-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2014-12-23 19:58:32.061  INFO ${PID:- } [http-nio-18080-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2014-12-23 19:58:32.091  INFO ${PID:- } [http-nio-18080-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2014-12-23 20:01:58.354 ERROR ${PID:- } [http-nio-18080-exec-7] --- d.c.a.c.web.controller.MyRestController  : listUsers CONTROLLER INVOKED
+2014-12-23 20:01:58.354  INFO ${PID:- } [http-nio-18080-exec-7] --- d.c.a.c.sevice.impl.UserServiceImpl      : listUsers INVOKED
+2014-12-23 20:01:58.501 ERROR ${PID:- } [http-nio-18080-exec-7] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at duri.com.autotrader.currencydatamanager.sevice.impl.UserServiceImpl.listUsers(UserServiceImpl.java:46)
+	at duri.com.autotrader.currencydatamanager.web.controller.MyRestController.listUsers(MyRestController.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:781)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:721)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+2014-12-23 20:07:30.625 ERROR ${PID:- } [http-nio-18080-exec-8] --- d.c.a.c.web.controller.MyRestController  : listUsers CONTROLLER INVOKED
+2014-12-23 20:07:30.626  INFO ${PID:- } [http-nio-18080-exec-8] --- d.c.a.c.sevice.impl.UserServiceImpl      : listUsers INVOKED
+2014-12-23 20:07:30.654 ERROR ${PID:- } [http-nio-18080-exec-8] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at duri.com.autotrader.currencydatamanager.sevice.impl.UserServiceImpl.listUsers(UserServiceImpl.java:46)
+	at duri.com.autotrader.currencydatamanager.web.controller.MyRestController.listUsers(MyRestController.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:781)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:721)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+2014-12-23 20:07:33.915 ERROR ${PID:- } [http-nio-18080-exec-9] --- d.c.a.c.web.controller.MyRestController  : listUsers CONTROLLER INVOKED
+2014-12-23 20:07:33.916  INFO ${PID:- } [http-nio-18080-exec-9] --- d.c.a.c.sevice.impl.UserServiceImpl      : listUsers INVOKED
+2014-12-23 20:07:33.950 ERROR ${PID:- } [http-nio-18080-exec-9] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at duri.com.autotrader.currencydatamanager.sevice.impl.UserServiceImpl.listUsers(UserServiceImpl.java:46)
+	at duri.com.autotrader.currencydatamanager.web.controller.MyRestController.listUsers(MyRestController.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:781)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:721)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+2014-12-23 20:10:05.262 ERROR ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.web.controller.MyRestController  : addUser CONTROLLER INVOKED
+2014-12-23 20:10:05.263  INFO ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.sevice.impl.UserServiceImpl      : addUser INVOKED
+2014-12-23 20:10:05.263  INFO ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.sevice.impl.UserServiceImpl      : User{id=null, firstName='duri', lastName='kucera', birthDate=null}
+2014-12-23 20:10:05.305 ERROR ${PID:- } [http-nio-18080-exec-1] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaSystemException: ids for this class must be manually assigned before calling save(): duri.com.autotrader.currencydatamanager.domain.entity.User; nested exception is org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): duri.com.autotrader.currencydatamanager.domain.entity.User] with root cause
+
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): duri.com.autotrader.currencydatamanager.domain.entity.User
+	at org.hibernate.id.Assigned.generate(Assigned.java:52)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:117)
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:84)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:206)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:149)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:75)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:811)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:784)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:344)
+	at com.sun.proxy.$Proxy60.persist(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:291)
+	at com.sun.proxy.$Proxy60.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:394)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:442)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:427)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:381)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$DefaultMethodInvokingMethodInterceptor.invoke(RepositoryFactorySupport.java:512)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:267)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodIntercceptor.invoke(CrudMethodMetadataPostProcessor.java:122)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy62.save(Unknown Source)
+	at duri.com.autotrader.currencydatamanager.sevice.impl.UserServiceImpl.addUser(UserServiceImpl.java:36)
+	at duri.com.autotrader.currencydatamanager.web.controller.MyRestController.addUser(MyRestController.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:781)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:721)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+2014-12-23 20:11:15.710  INFO ${PID:- } [Thread-2] --- ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37172b0b: startup date [Tue Dec 23 19:58:01 CET 2014]; root of context hierarchy
+2014-12-23 20:11:15.713  INFO ${PID:- } [Thread-2] --- o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2014-12-23 20:11:15.717  INFO ${PID:- } [Thread-2] --- j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:11:28.713  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Starting Application on duri-pc with PID 2580 (started by Duri in C:\repo\=AUTO TRADING=\CurrencyDataManager)
+2014-12-23 20:11:28.802  INFO ${PID:- } [main] --- ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:11:28 CET 2014]; root of context hierarchy
+2014-12-23 20:11:29.203  WARN ${PID:- } [main] --- .i.s.PathMatchingResourcePatternResolver : Skipping [C:\repo\=AUTO TRADING=\CurrencyDataManager\target\currencydatamanager-0.0.1-SNAPSHOT.jar] because it does not denote a directory
+2014-12-23 20:11:29.899  INFO ${PID:- } [main] --- o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2014-12-23 20:11:30.740  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'applicationConfig' of type [class duri.com.autotrader.currencydatamanager.config.ApplicationConfig$$EnhancerBySpringCGLIB$$f2fcd399] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:11:30.893  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a61bf34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:11:30.918  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:11:30.940  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:11:30.949  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:11:31.574  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080/http
+2014-12-23 20:11:31.780  INFO ${PID:- } [main] --- o.apache.catalina.core.StandardService   : Starting service Tomcat
+2014-12-23 20:11:31.782  INFO ${PID:- } [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.15
+2014-12-23 20:11:31.976  INFO ${PID:- } [localhost-startStop-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2014-12-23 20:11:31.977  INFO ${PID:- } [localhost-startStop-1] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3178 ms
+2014-12-23 20:11:32.856  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2014-12-23 20:11:32.866  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2014-12-23 20:11:32.867  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2014-12-23 20:11:32.967  INFO ${PID:- } [main] --- o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: oracle.jdbc.OracleDriver
+2014-12-23 20:11:33.111  INFO ${PID:- } [main] --- j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:11:33.131  INFO ${PID:- } [main] --- o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2014-12-23 20:11:33.286  INFO ${PID:- } [main] --- org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.7.Final}
+2014-12-23 20:11:33.290  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2014-12-23 20:11:33.292  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2014-12-23 20:11:33.617  INFO ${PID:- } [main] --- o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2014-12-23 20:11:34.272  INFO ${PID:- } [main] --- org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2014-12-23 20:11:34.559  INFO ${PID:- } [main] --- o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2014-12-23 20:11:34.565  WARN ${PID:- } [main] --- org.hibernate.cfg.SettingsFactory        : Unrecognized value for "hibernate.hbm2ddl.auto": CREATE
+2014-12-23 20:11:35.515  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:11:35.759  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String duri.com.autotrader.currencydatamanager.Application.home()
+2014-12-23 20:11:35.763  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/listUsers],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.listUsers()
+2014-12-23 20:11:35.764  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/currentDate],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.getCurrentDate()
+2014-12-23 20:11:35.765  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/addUser],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public void duri.com.autotrader.currencydatamanager.web.controller.MyRestController.addUser(duri.com.autotrader.currencydatamanager.domain.dto.UserDTO)
+2014-12-23 20:11:35.769  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2014-12-23 20:11:35.770  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2014-12-23 20:11:35.814  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:11:35.814  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:11:35.944  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:11:28 CET 2014]; root of context hierarchy
+2014-12-23 20:11:36.411  INFO ${PID:- } [main] --- o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2014-12-23 20:11:36.492  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080/http
+2014-12-23 20:11:36.494  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Started Application in 8.221 seconds (JVM running for 8.844)
+2014-12-23 20:11:52.186  INFO ${PID:- } [http-nio-18080-exec-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2014-12-23 20:11:52.186  INFO ${PID:- } [http-nio-18080-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2014-12-23 20:11:52.218  INFO ${PID:- } [http-nio-18080-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2014-12-23 20:11:52.315 ERROR ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.web.controller.MyRestController  : addUser CONTROLLER INVOKED
+2014-12-23 20:11:52.316  INFO ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.sevice.impl.UserServiceImpl      : addUser INVOKED
+2014-12-23 20:11:52.317  INFO ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.sevice.impl.UserServiceImpl      : User{id=null, firstName='duri', lastName='kucera', birthDate=null}
+2014-12-23 20:12:22.068 ERROR ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.web.controller.MyRestController  : listUsers CONTROLLER INVOKED
+2014-12-23 20:12:22.069  INFO ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.sevice.impl.UserServiceImpl      : listUsers INVOKED
+2014-12-23 20:12:22.117  INFO ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.sevice.impl.UserServiceImpl      : User{id=1, firstName='duri', lastName='kucera', birthDate=null}
+2014-12-23 20:13:40.849 ERROR ${PID:- } [http-nio-18080-exec-3] --- d.c.a.c.web.controller.MyRestController  : addUser CONTROLLER INVOKED
+2014-12-23 20:13:40.849  INFO ${PID:- } [http-nio-18080-exec-3] --- d.c.a.c.sevice.impl.UserServiceImpl      : addUser INVOKED
+2014-12-23 20:13:40.850  INFO ${PID:- } [http-nio-18080-exec-3] --- d.c.a.c.sevice.impl.UserServiceImpl      : User{id=null, firstName='test', lastName='FROM BROWSER', birthDate=null}
+2014-12-23 20:13:58.687 ERROR ${PID:- } [http-nio-18080-exec-4] --- d.c.a.c.web.controller.MyRestController  : listUsers CONTROLLER INVOKED
+2014-12-23 20:13:58.688  INFO ${PID:- } [http-nio-18080-exec-4] --- d.c.a.c.sevice.impl.UserServiceImpl      : listUsers INVOKED
+2014-12-23 20:13:58.718  INFO ${PID:- } [http-nio-18080-exec-4] --- d.c.a.c.sevice.impl.UserServiceImpl      : User{id=1, firstName='test', lastName='FROM BROWSER', birthDate=null}
+2014-12-23 20:19:40.413  INFO ${PID:- } [Thread-2] --- ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:11:28 CET 2014]; root of context hierarchy
+2014-12-23 20:19:40.420  INFO ${PID:- } [Thread-2] --- o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2014-12-23 20:19:40.433  INFO ${PID:- } [Thread-2] --- j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:19:43.523  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Starting Application on duri-pc with PID 424 (started by Duri in C:\repo\=AUTO TRADING=\CurrencyDataManager)
+2014-12-23 20:19:43.621  INFO ${PID:- } [main] --- ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:19:43 CET 2014]; root of context hierarchy
+2014-12-23 20:19:44.007  WARN ${PID:- } [main] --- .i.s.PathMatchingResourcePatternResolver : Skipping [C:\repo\=AUTO TRADING=\CurrencyDataManager\target\currencydatamanager-0.0.1-SNAPSHOT.jar] because it does not denote a directory
+2014-12-23 20:19:44.729  INFO ${PID:- } [main] --- o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2014-12-23 20:19:45.440  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'applicationConfig' of type [class duri.com.autotrader.currencydatamanager.config.ApplicationConfig$$EnhancerBySpringCGLIB$$f2fcd399] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:19:45.596  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a61bf34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:19:45.623  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:19:45.641  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:19:45.655  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:19:46.253  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080/http
+2014-12-23 20:19:46.456  INFO ${PID:- } [main] --- o.apache.catalina.core.StandardService   : Starting service Tomcat
+2014-12-23 20:19:46.458  INFO ${PID:- } [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.15
+2014-12-23 20:19:46.651  INFO ${PID:- } [localhost-startStop-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2014-12-23 20:19:46.652  INFO ${PID:- } [localhost-startStop-1] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3034 ms
+2014-12-23 20:19:47.492  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2014-12-23 20:19:47.500  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2014-12-23 20:19:47.501  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2014-12-23 20:19:47.602  INFO ${PID:- } [main] --- o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: oracle.jdbc.OracleDriver
+2014-12-23 20:19:47.719  INFO ${PID:- } [main] --- j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:19:47.737  INFO ${PID:- } [main] --- o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2014-12-23 20:19:47.889  INFO ${PID:- } [main] --- org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.7.Final}
+2014-12-23 20:19:47.893  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2014-12-23 20:19:47.895  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2014-12-23 20:19:48.201  INFO ${PID:- } [main] --- o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2014-12-23 20:19:48.842  INFO ${PID:- } [main] --- org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2014-12-23 20:19:49.115  INFO ${PID:- } [main] --- o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2014-12-23 20:19:49.120  WARN ${PID:- } [main] --- org.hibernate.cfg.SettingsFactory        : Unrecognized value for "hibernate.hbm2ddl.auto": CREATE
+2014-12-23 20:19:49.993  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:19:50.219  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String duri.com.autotrader.currencydatamanager.Application.home()
+2014-12-23 20:19:50.222  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/listUsers],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.listUsers()
+2014-12-23 20:19:50.223  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/addUser],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public void duri.com.autotrader.currencydatamanager.web.controller.MyRestController.addUser(duri.com.autotrader.currencydatamanager.domain.dto.UserDTO)
+2014-12-23 20:19:50.224  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/currentDate],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.getCurrentDate()
+2014-12-23 20:19:50.227  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2014-12-23 20:19:50.228  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2014-12-23 20:19:50.271  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:19:50.271  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:19:50.360  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:19:43 CET 2014]; root of context hierarchy
+2014-12-23 20:19:50.849  INFO ${PID:- } [main] --- o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2014-12-23 20:19:50.930  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080/http
+2014-12-23 20:19:50.932  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Started Application in 7.887 seconds (JVM running for 8.508)
+2014-12-23 20:20:34.494  INFO ${PID:- } [http-nio-18080-exec-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2014-12-23 20:20:34.495  INFO ${PID:- } [http-nio-18080-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2014-12-23 20:20:34.528  INFO ${PID:- } [http-nio-18080-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2014-12-23 20:20:34.619 ERROR ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.web.controller.MyRestController  : addUser CONTROLLER INVOKED
+2014-12-23 20:20:34.620  INFO ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.sevice.impl.UserServiceImpl      : addUser INVOKED
+2014-12-23 20:20:34.620  INFO ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.sevice.impl.UserServiceImpl      : User{id=null, firstName='test', lastName='FROM BROWSER', birthDate=null}
+2014-12-23 20:20:38.044  INFO ${PID:- } [Thread-2] --- ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:19:43 CET 2014]; root of context hierarchy
+2014-12-23 20:20:38.051  INFO ${PID:- } [Thread-2] --- o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2014-12-23 20:20:38.064  INFO ${PID:- } [Thread-2] --- j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:20:50.794  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Starting Application on duri-pc with PID 1848 (started by Duri in C:\repo\=AUTO TRADING=\CurrencyDataManager)
+2014-12-23 20:20:50.889  INFO ${PID:- } [main] --- ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:20:50 CET 2014]; root of context hierarchy
+2014-12-23 20:20:51.280  WARN ${PID:- } [main] --- .i.s.PathMatchingResourcePatternResolver : Skipping [C:\repo\=AUTO TRADING=\CurrencyDataManager\target\currencydatamanager-0.0.1-SNAPSHOT.jar] because it does not denote a directory
+2014-12-23 20:20:51.945  INFO ${PID:- } [main] --- o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2014-12-23 20:20:52.725  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'applicationConfig' of type [class duri.com.autotrader.currencydatamanager.config.ApplicationConfig$$EnhancerBySpringCGLIB$$f2fcd399] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:20:52.871  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a61bf34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:20:52.893  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:20:52.909  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:20:52.918  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:20:53.753  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080/http
+2014-12-23 20:20:54.058  INFO ${PID:- } [main] --- o.apache.catalina.core.StandardService   : Starting service Tomcat
+2014-12-23 20:20:54.060  INFO ${PID:- } [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.15
+2014-12-23 20:20:54.331  INFO ${PID:- } [localhost-startStop-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2014-12-23 20:20:54.332  INFO ${PID:- } [localhost-startStop-1] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3448 ms
+2014-12-23 20:20:55.200  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2014-12-23 20:20:55.209  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2014-12-23 20:20:55.210  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2014-12-23 20:20:55.298  INFO ${PID:- } [main] --- o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: oracle.jdbc.OracleDriver
+2014-12-23 20:20:55.427  INFO ${PID:- } [main] --- j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:20:55.447  INFO ${PID:- } [main] --- o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2014-12-23 20:20:55.698  INFO ${PID:- } [main] --- org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.7.Final}
+2014-12-23 20:20:55.703  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2014-12-23 20:20:55.706  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2014-12-23 20:20:56.156  INFO ${PID:- } [main] --- o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2014-12-23 20:20:56.855  INFO ${PID:- } [main] --- org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2014-12-23 20:20:57.155  INFO ${PID:- } [main] --- o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2014-12-23 20:20:57.161  WARN ${PID:- } [main] --- org.hibernate.cfg.SettingsFactory        : Unrecognized value for "hibernate.hbm2ddl.auto": CREATE-DROP
+2014-12-23 20:20:58.179  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:20:58.418  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String duri.com.autotrader.currencydatamanager.Application.home()
+2014-12-23 20:20:58.424  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/addUser],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public void duri.com.autotrader.currencydatamanager.web.controller.MyRestController.addUser(duri.com.autotrader.currencydatamanager.domain.dto.UserDTO)
+2014-12-23 20:20:58.425  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/currentDate],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.getCurrentDate()
+2014-12-23 20:20:58.425  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/listUsers],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.listUsers()
+2014-12-23 20:20:58.427  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2014-12-23 20:20:58.428  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2014-12-23 20:20:58.466  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:20:58.466  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:20:58.562  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:20:50 CET 2014]; root of context hierarchy
+2014-12-23 20:20:58.960  INFO ${PID:- } [main] --- o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2014-12-23 20:20:59.030  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080/http
+2014-12-23 20:20:59.032  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Started Application in 8.664 seconds (JVM running for 9.282)
+2014-12-23 20:23:03.888  INFO ${PID:- } [Thread-2] --- ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:20:50 CET 2014]; root of context hierarchy
+2014-12-23 20:23:03.892  INFO ${PID:- } [Thread-2] --- o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2014-12-23 20:23:03.896  INFO ${PID:- } [Thread-2] --- j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:23:15.583  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Starting Application on duri-pc with PID 5580 (started by Duri in C:\repo\=AUTO TRADING=\CurrencyDataManager)
+2014-12-23 20:23:15.689  INFO ${PID:- } [main] --- ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:23:15 CET 2014]; root of context hierarchy
+2014-12-23 20:23:16.046  WARN ${PID:- } [main] --- .i.s.PathMatchingResourcePatternResolver : Skipping [C:\repo\=AUTO TRADING=\CurrencyDataManager\target\currencydatamanager-0.0.1-SNAPSHOT.jar] because it does not denote a directory
+2014-12-23 20:23:16.600  INFO ${PID:- } [main] --- o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2014-12-23 20:23:17.437  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'applicationConfig' of type [class duri.com.autotrader.currencydatamanager.config.ApplicationConfig$$EnhancerBySpringCGLIB$$f2fcd399] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:23:17.569  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a61bf34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:23:17.593  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:23:17.608  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:23:17.617  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:23:18.244  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080/http
+2014-12-23 20:23:18.476  INFO ${PID:- } [main] --- o.apache.catalina.core.StandardService   : Starting service Tomcat
+2014-12-23 20:23:18.478  INFO ${PID:- } [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.15
+2014-12-23 20:23:18.681  INFO ${PID:- } [localhost-startStop-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2014-12-23 20:23:18.682  INFO ${PID:- } [localhost-startStop-1] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2996 ms
+2014-12-23 20:23:19.588  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2014-12-23 20:23:19.597  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2014-12-23 20:23:19.599  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2014-12-23 20:23:19.699  INFO ${PID:- } [main] --- o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: oracle.jdbc.OracleDriver
+2014-12-23 20:23:19.844  INFO ${PID:- } [main] --- j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:23:19.868  INFO ${PID:- } [main] --- o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2014-12-23 20:23:20.036  INFO ${PID:- } [main] --- org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.7.Final}
+2014-12-23 20:23:20.040  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2014-12-23 20:23:20.043  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2014-12-23 20:23:20.362  INFO ${PID:- } [main] --- o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2014-12-23 20:23:23.946  INFO ${PID:- } [main] --- org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2014-12-23 20:23:24.486  INFO ${PID:- } [main] --- o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2014-12-23 20:23:25.154  INFO ${PID:- } [main] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2014-12-23 20:23:29.820  INFO ${PID:- } [main] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2014-12-23 20:23:30.386  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:23:32.554  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String duri.com.autotrader.currencydatamanager.Application.home()
+2014-12-23 20:23:32.558  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/addUser],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public void duri.com.autotrader.currencydatamanager.web.controller.MyRestController.addUser(duri.com.autotrader.currencydatamanager.domain.dto.UserDTO)
+2014-12-23 20:23:32.559  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/listUsers],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.listUsers()
+2014-12-23 20:23:32.560  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/currentDate],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.getCurrentDate()
+2014-12-23 20:23:32.562  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2014-12-23 20:23:32.563  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2014-12-23 20:23:32.607  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:23:32.608  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:23:32.696  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:23:15 CET 2014]; root of context hierarchy
+2014-12-23 20:23:33.068  INFO ${PID:- } [main] --- o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2014-12-23 20:23:34.132  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080/http
+2014-12-23 20:23:34.134  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Started Application in 18.98 seconds (JVM running for 19.595)
+2014-12-23 20:34:14.740  INFO ${PID:- } [Thread-2] --- ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:23:15 CET 2014]; root of context hierarchy
+2014-12-23 20:34:14.743  INFO ${PID:- } [Thread-2] --- o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2014-12-23 20:34:14.748  INFO ${PID:- } [Thread-2] --- j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:34:14.749  INFO ${PID:- } [Thread-2] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2014-12-23 20:34:14.793  INFO ${PID:- } [Thread-2] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2014-12-23 20:34:29.072  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Starting Application on duri-pc with PID 7544 (started by Duri in C:\repo\=AUTO TRADING=\CurrencyDataManager)
+2014-12-23 20:34:29.175  INFO ${PID:- } [main] --- ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37172b0b: startup date [Tue Dec 23 20:34:29 CET 2014]; root of context hierarchy
+2014-12-23 20:34:29.574  WARN ${PID:- } [main] --- .i.s.PathMatchingResourcePatternResolver : Skipping [C:\repo\=AUTO TRADING=\CurrencyDataManager\target\currencydatamanager-0.0.1-SNAPSHOT.jar] because it does not denote a directory
+2014-12-23 20:34:30.149  INFO ${PID:- } [main] --- o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2014-12-23 20:34:30.966  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'applicationConfig' of type [class duri.com.autotrader.currencydatamanager.config.ApplicationConfig$$EnhancerBySpringCGLIB$$a7d6a267] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:34:31.123  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f3b8e02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:34:31.150  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:34:31.169  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:34:31.179  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:34:31.800  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080/http
+2014-12-23 20:34:32.053  INFO ${PID:- } [main] --- o.apache.catalina.core.StandardService   : Starting service Tomcat
+2014-12-23 20:34:32.055  INFO ${PID:- } [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.15
+2014-12-23 20:34:32.264  INFO ${PID:- } [localhost-startStop-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2014-12-23 20:34:32.265  INFO ${PID:- } [localhost-startStop-1] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3093 ms
+2014-12-23 20:34:33.209  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2014-12-23 20:34:33.223  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2014-12-23 20:34:33.224  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2014-12-23 20:34:33.334  INFO ${PID:- } [main] --- o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: oracle.jdbc.OracleDriver
+2014-12-23 20:34:33.503  INFO ${PID:- } [main] --- j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:34:33.533  INFO ${PID:- } [main] --- o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2014-12-23 20:34:33.721  INFO ${PID:- } [main] --- org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.7.Final}
+2014-12-23 20:34:33.726  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2014-12-23 20:34:33.729  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2014-12-23 20:34:34.072  INFO ${PID:- } [main] --- o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2014-12-23 20:34:34.784  INFO ${PID:- } [main] --- org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2014-12-23 20:34:35.074  INFO ${PID:- } [main] --- o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2014-12-23 20:34:35.499  INFO ${PID:- } [main] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2014-12-23 20:34:35.528 ERROR ${PID:- } [main] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table USERS cascade constraints
+2014-12-23 20:34:35.529 ERROR ${PID:- } [main] --- org.hibernate.tool.hbm2ddl.SchemaExport  : ORA-00942: table or view does not exist
+
+2014-12-23 20:34:35.541  INFO ${PID:- } [main] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2014-12-23 20:34:36.188  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:34:36.439  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String duri.com.autotrader.currencydatamanager.Application.home()
+2014-12-23 20:34:36.442  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/addUser],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public void duri.com.autotrader.currencydatamanager.web.controller.MyRestController.addUser(duri.com.autotrader.currencydatamanager.domain.dto.UserDTO)
+2014-12-23 20:34:36.443  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/listUsers],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.listUsers()
+2014-12-23 20:34:36.444  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/currentDate],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.getCurrentDate()
+2014-12-23 20:34:36.446  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2014-12-23 20:34:36.447  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2014-12-23 20:34:36.488  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:34:36.489  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:34:36.575  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37172b0b: startup date [Tue Dec 23 20:34:29 CET 2014]; root of context hierarchy
+2014-12-23 20:34:37.050  INFO ${PID:- } [main] --- o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2014-12-23 20:34:37.129  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080/http
+2014-12-23 20:34:37.132  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Started Application in 8.488 seconds (JVM running for 9.137)
+2014-12-23 20:35:04.744  INFO ${PID:- } [http-nio-18080-exec-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2014-12-23 20:35:04.744  INFO ${PID:- } [http-nio-18080-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2014-12-23 20:35:04.778  INFO ${PID:- } [http-nio-18080-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2014-12-23 20:35:04.879 ERROR ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.web.controller.MyRestController  : addUser CONTROLLER INVOKED
+2014-12-23 20:35:04.880  INFO ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## addUser INVOKED
+2014-12-23 20:35:04.881  INFO ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##User{id=null, firstName='test', lastName='FROM BROWSER', birthDate=null}
+2014-12-23 20:35:04.953 ERROR ${PID:- } [http-nio-18080-exec-1] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaSystemException: ids for this class must be manually assigned before calling save(): duri.com.autotrader.currencydatamanager.domain.entity.User; nested exception is org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): duri.com.autotrader.currencydatamanager.domain.entity.User] with root cause
+
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): duri.com.autotrader.currencydatamanager.domain.entity.User
+	at org.hibernate.id.Assigned.generate(Assigned.java:52)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:117)
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:84)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:206)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:149)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:75)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:811)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:784)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:344)
+	at com.sun.proxy.$Proxy60.persist(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:291)
+	at com.sun.proxy.$Proxy60.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:394)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:442)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:427)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:381)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$DefaultMethodInvokingMethodInterceptor.invoke(RepositoryFactorySupport.java:512)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:267)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodIntercceptor.invoke(CrudMethodMetadataPostProcessor.java:122)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy62.save(Unknown Source)
+	at duri.com.autotrader.currencydatamanager.sevice.impl.UserServiceImpl.addUser(UserServiceImpl.java:38)
+	at duri.com.autotrader.currencydatamanager.web.controller.MyRestController.addUser(MyRestController.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:781)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:721)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+2014-12-23 20:38:35.909  INFO ${PID:- } [Thread-2] --- ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37172b0b: startup date [Tue Dec 23 20:34:29 CET 2014]; root of context hierarchy
+2014-12-23 20:38:35.916  INFO ${PID:- } [Thread-2] --- o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2014-12-23 20:38:35.928  INFO ${PID:- } [Thread-2] --- j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:38:35.930  INFO ${PID:- } [Thread-2] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2014-12-23 20:38:35.987  INFO ${PID:- } [Thread-2] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2014-12-23 20:38:51.820  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Starting Application on duri-pc with PID 2224 (started by Duri in C:\repo\=AUTO TRADING=\CurrencyDataManager)
+2014-12-23 20:38:51.920  INFO ${PID:- } [main] --- ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:38:51 CET 2014]; root of context hierarchy
+2014-12-23 20:38:52.323  WARN ${PID:- } [main] --- .i.s.PathMatchingResourcePatternResolver : Skipping [C:\repo\=AUTO TRADING=\CurrencyDataManager\target\currencydatamanager-0.0.1-SNAPSHOT.jar] because it does not denote a directory
+2014-12-23 20:38:52.982  INFO ${PID:- } [main] --- o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2014-12-23 20:38:53.793  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'applicationConfig' of type [class duri.com.autotrader.currencydatamanager.config.ApplicationConfig$$EnhancerBySpringCGLIB$$f2fcd399] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:38:53.941  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a61bf34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:38:53.967  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:38:53.984  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:38:53.993  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:38:54.583  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080/http
+2014-12-23 20:38:54.838  INFO ${PID:- } [main] --- o.apache.catalina.core.StandardService   : Starting service Tomcat
+2014-12-23 20:38:54.840  INFO ${PID:- } [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.15
+2014-12-23 20:38:55.054  INFO ${PID:- } [localhost-startStop-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2014-12-23 20:38:55.055  INFO ${PID:- } [localhost-startStop-1] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3138 ms
+2014-12-23 20:38:55.993  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2014-12-23 20:38:56.001  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2014-12-23 20:38:56.003  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2014-12-23 20:38:56.107  INFO ${PID:- } [main] --- o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: oracle.jdbc.OracleDriver
+2014-12-23 20:38:56.258  INFO ${PID:- } [main] --- j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:38:56.277  INFO ${PID:- } [main] --- o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2014-12-23 20:38:56.450  INFO ${PID:- } [main] --- org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.7.Final}
+2014-12-23 20:38:56.455  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2014-12-23 20:38:56.458  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2014-12-23 20:38:56.792  INFO ${PID:- } [main] --- o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2014-12-23 20:38:57.504  INFO ${PID:- } [main] --- org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2014-12-23 20:38:57.826  INFO ${PID:- } [main] --- o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2014-12-23 20:38:58.228  WARN ${PID:- } [main] --- ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [duri/com/autotrader/currencydatamanager/config/ApplicationConfig.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1568)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:540)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:109)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:691)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:961)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:950)
+	at duri.com.autotrader.currencydatamanager.Application.main(Application.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:53)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1239)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.access$600(EntityManagerFactoryBuilderImpl.java:120)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:855)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:845)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:398)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:844)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1564)
+	... 21 common frames omitted
+Caused by: org.hibernate.MappingException: org.hibernate.dialect.Oracle10gDialect does not support identity key generation
+	at org.hibernate.dialect.Dialect.getIdentityColumnString(Dialect.java:834)
+	at org.hibernate.dialect.Dialect.getIdentityColumnString(Dialect.java:824)
+	at org.hibernate.mapping.Table.sqlCreateString(Table.java:506)
+	at org.hibernate.cfg.Configuration.generateSchemaCreationScript(Configuration.java:1071)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.<init>(SchemaExport.java:125)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:517)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1859)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:852)
+	... 29 common frames omitted
+
+2014-12-23 20:38:58.267  INFO ${PID:- } [main] --- o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2014-12-23 20:38:58.280  INFO ${PID:- } [main] --- .b.l.ClasspathLoggingApplicationListener : Application failed to start with classpath: [file:/C:/repo/%3dAUTO%20TRADING%3d/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-boot-starter-web-1.2.0.RC2.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-boot-starter-1.2.0.RC2.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-boot-1.2.0.RC2.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-boot-autoconfigure-1.2.0.RC2.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-boot-starter-logging-1.2.0.RC2.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/jul-to-slf4j-1.7.7.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/log4j-over-slf4j-1.7.7.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/logback-classic-1.1.2.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/logback-core-1.1.2.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/snakeyaml-1.14.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-boot-starter-tomcat-1.2.0.RC2.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/tomcat-embed-core-8.0.15.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/tomcat-embed-el-8.0.15.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/tomcat-embed-logging-juli-8.0.15.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/tomcat-embed-websocket-8.0.15.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/jackson-databind-2.4.3.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/jackson-annotations-2.4.3.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/jackson-core-2.4.3.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/hibernate-validator-5.1.3.Final.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/validation-api-1.1.0.Final.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/jboss-logging-3.1.3.GA.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/classmate-1.0.0.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-core-4.1.2.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-web-4.1.2.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-aop-4.1.2.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/aopalliance-1.0.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-beans-4.1.2.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-context-4.1.2.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-webmvc-4.1.2.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-expression-4.1.2.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-boot-starter-data-jpa-1.2.0.RC2.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-boot-starter-aop-1.2.0.RC2.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/aspectjrt-1.8.4.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/aspectjweaver-1.8.4.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-boot-starter-jdbc-1.2.0.RC2.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-jdbc-4.1.2.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/tomcat-jdbc-8.0.15.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/tomcat-juli-8.0.15.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-tx-4.1.2.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/hibernate-entitymanager-4.3.7.Final.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/jboss-logging-annotations-1.2.0.Beta1.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/hibernate-core-4.3.7.Final.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/antlr-2.7.7.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/jandex-1.1.0.Final.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/dom4j-1.6.1.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/xml-apis-1.0.b2.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/hibernate-commons-annotations-4.0.5.Final.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/javassist-3.18.1-GA.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-orm-4.1.2.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-data-jpa-1.7.1.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-data-commons-1.9.1.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/slf4j-api-1.7.7.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/jcl-over-slf4j-1.7.7.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/spring-aspects-4.1.2.RELEASE.jar!/, jar:file:/C:/repo/=AUTO%20TRADING=/CurrencyDataManager/target/currencydatamanager-0.0.1-SNAPSHOT.jar!/lib/ojdbc6-11.2.0.jar!/]
+2014-12-23 20:38:58.309  INFO ${PID:- } [main] --- utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report enabled debug logging (start with --debug)
+
+
+2014-12-23 20:38:58.313 ERROR ${PID:- } [main] --- o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [duri/com/autotrader/currencydatamanager/config/ApplicationConfig.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1568)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:540)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:109)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:691)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:961)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:950)
+	at duri.com.autotrader.currencydatamanager.Application.main(Application.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:53)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1239)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.access$600(EntityManagerFactoryBuilderImpl.java:120)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:855)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:845)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:398)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:844)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1564)
+	... 21 common frames omitted
+Caused by: org.hibernate.MappingException: org.hibernate.dialect.Oracle10gDialect does not support identity key generation
+	at org.hibernate.dialect.Dialect.getIdentityColumnString(Dialect.java:834)
+	at org.hibernate.dialect.Dialect.getIdentityColumnString(Dialect.java:824)
+	at org.hibernate.mapping.Table.sqlCreateString(Table.java:506)
+	at org.hibernate.cfg.Configuration.generateSchemaCreationScript(Configuration.java:1071)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.<init>(SchemaExport.java:125)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:517)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1859)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:852)
+	... 29 common frames omitted
+
+2014-12-23 20:41:05.299  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Starting Application on duri-pc with PID 7824 (started by Duri in C:\repo\=AUTO TRADING=\CurrencyDataManager)
+2014-12-23 20:41:05.384  INFO ${PID:- } [main] --- ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:41:05 CET 2014]; root of context hierarchy
+2014-12-23 20:41:05.750  WARN ${PID:- } [main] --- .i.s.PathMatchingResourcePatternResolver : Skipping [C:\repo\=AUTO TRADING=\CurrencyDataManager\target\currencydatamanager-0.0.1-SNAPSHOT.jar] because it does not denote a directory
+2014-12-23 20:41:06.360  INFO ${PID:- } [main] --- o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2014-12-23 20:41:07.100  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'applicationConfig' of type [class duri.com.autotrader.currencydatamanager.config.ApplicationConfig$$EnhancerBySpringCGLIB$$f2fcd399] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:41:07.250  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a61bf34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:41:07.281  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:41:07.294  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:41:07.303  INFO ${PID:- } [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-23 20:41:07.927  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080/http
+2014-12-23 20:41:08.130  INFO ${PID:- } [main] --- o.apache.catalina.core.StandardService   : Starting service Tomcat
+2014-12-23 20:41:08.136  INFO ${PID:- } [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.15
+2014-12-23 20:41:08.333  INFO ${PID:- } [localhost-startStop-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2014-12-23 20:41:08.334  INFO ${PID:- } [localhost-startStop-1] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2954 ms
+2014-12-23 20:41:09.219  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2014-12-23 20:41:09.227  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2014-12-23 20:41:09.228  INFO ${PID:- } [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2014-12-23 20:41:09.324  INFO ${PID:- } [main] --- o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: oracle.jdbc.OracleDriver
+2014-12-23 20:41:09.489  INFO ${PID:- } [main] --- j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2014-12-23 20:41:09.508  INFO ${PID:- } [main] --- o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2014-12-23 20:41:09.660  INFO ${PID:- } [main] --- org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.7.Final}
+2014-12-23 20:41:09.664  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2014-12-23 20:41:09.667  INFO ${PID:- } [main] --- org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2014-12-23 20:41:09.979  INFO ${PID:- } [main] --- o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2014-12-23 20:41:10.617  INFO ${PID:- } [main] --- org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2014-12-23 20:41:10.908  INFO ${PID:- } [main] --- o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2014-12-23 20:41:11.324  INFO ${PID:- } [main] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2014-12-23 20:41:11.353 ERROR ${PID:- } [main] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table USERS cascade constraints
+2014-12-23 20:41:11.354 ERROR ${PID:- } [main] --- org.hibernate.tool.hbm2ddl.SchemaExport  : ORA-00942: table or view does not exist
+
+2014-12-23 20:41:11.362 ERROR ${PID:- } [main] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop sequence USER_ID_SEQ
+2014-12-23 20:41:11.363 ERROR ${PID:- } [main] --- org.hibernate.tool.hbm2ddl.SchemaExport  : ORA-02289: sequence does not exist
+
+2014-12-23 20:41:11.381  INFO ${PID:- } [main] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2014-12-23 20:41:11.940  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:41:12.219  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String duri.com.autotrader.currencydatamanager.Application.home()
+2014-12-23 20:41:12.224  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/addUser],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public void duri.com.autotrader.currencydatamanager.web.controller.MyRestController.addUser(duri.com.autotrader.currencydatamanager.domain.dto.UserDTO)
+2014-12-23 20:41:12.225  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/listUsers],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.listUsers()
+2014-12-23 20:41:12.226  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/currentDate],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String duri.com.autotrader.currencydatamanager.web.controller.MyRestController.getCurrentDate()
+2014-12-23 20:41:12.228  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2014-12-23 20:41:12.230  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2014-12-23 20:41:12.278  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:41:12.279  INFO ${PID:- } [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-12-23 20:41:12.372  INFO ${PID:- } [main] --- s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:41:05 CET 2014]; root of context hierarchy
+2014-12-23 20:41:12.926  INFO ${PID:- } [main] --- o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2014-12-23 20:41:13.005  INFO ${PID:- } [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080/http
+2014-12-23 20:41:13.008  INFO ${PID:- } [main] --- d.c.a.currencydatamanager.Application    : Started Application in 8.118 seconds (JVM running for 8.724)
+2014-12-23 20:41:17.637  INFO ${PID:- } [http-nio-18080-exec-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2014-12-23 20:41:17.638  INFO ${PID:- } [http-nio-18080-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2014-12-23 20:41:17.674  INFO ${PID:- } [http-nio-18080-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2014-12-23 20:41:17.769 ERROR ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.web.controller.MyRestController  : addUser CONTROLLER INVOKED
+2014-12-23 20:41:17.770  INFO ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## addUser INVOKED
+2014-12-23 20:41:17.771  INFO ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##User{id=null, firstName='test', lastName='FROM BROWSER', birthDate=null}
+2014-12-23 20:41:22.816 ERROR ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.web.controller.MyRestController  : listUsers CONTROLLER INVOKED
+2014-12-23 20:41:22.817  INFO ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.sevice.impl.UserServiceImpl      : listUsers INVOKED
+2014-12-23 20:41:22.856  INFO ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JDBC TEMPLATE QueryForList RESULT: 
+2014-12-23 20:41:22.857  INFO ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[{ID=50, BIRTH_DATE=null, FIRST_NAME=test, LAST_NAME=FROM BROWSER}]
+2014-12-23 20:41:23.202  INFO ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JPA findAll RESULT: 
+2014-12-23 20:41:23.203  INFO ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[User{id=50, firstName='test', lastName='FROM BROWSER', birthDate=null}]
+2014-12-23 20:42:24.848 ERROR ${PID:- } [http-nio-18080-exec-3] --- d.c.a.c.web.controller.MyRestController  : listUsers CONTROLLER INVOKED
+2014-12-23 20:42:24.849  INFO ${PID:- } [http-nio-18080-exec-3] --- d.c.a.c.sevice.impl.UserServiceImpl      : listUsers INVOKED
+2014-12-23 20:42:24.879  INFO ${PID:- } [http-nio-18080-exec-3] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JDBC TEMPLATE QueryForList RESULT: 
+2014-12-23 20:42:24.880  INFO ${PID:- } [http-nio-18080-exec-3] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[{ID=50, BIRTH_DATE=null, FIRST_NAME=test, LAST_NAME=FROM BROWSER}]
+2014-12-23 20:42:24.903  INFO ${PID:- } [http-nio-18080-exec-3] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JPA findAll RESULT: 
+2014-12-23 20:42:24.904  INFO ${PID:- } [http-nio-18080-exec-3] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[User{id=50, firstName='test', lastName='FROM BROWSER', birthDate=null}]
+2014-12-23 20:42:31.369 ERROR ${PID:- } [http-nio-18080-exec-4] --- d.c.a.c.web.controller.MyRestController  : addUser CONTROLLER INVOKED
+2014-12-23 20:42:31.370  INFO ${PID:- } [http-nio-18080-exec-4] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## addUser INVOKED
+2014-12-23 20:42:31.371  INFO ${PID:- } [http-nio-18080-exec-4] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##User{id=null, firstName='test', lastName='FROM BROWSER', birthDate=null}
+2014-12-23 20:42:45.209 ERROR ${PID:- } [http-nio-18080-exec-5] --- d.c.a.c.web.controller.MyRestController  : listUsers CONTROLLER INVOKED
+2014-12-23 20:42:45.210  INFO ${PID:- } [http-nio-18080-exec-5] --- d.c.a.c.sevice.impl.UserServiceImpl      : listUsers INVOKED
+2014-12-23 20:42:45.236  INFO ${PID:- } [http-nio-18080-exec-5] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JDBC TEMPLATE QueryForList RESULT: 
+2014-12-23 20:42:45.237  INFO ${PID:- } [http-nio-18080-exec-5] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[{ID=50, BIRTH_DATE=null, FIRST_NAME=test, LAST_NAME=FROM BROWSER}, {ID=51, BIRTH_DATE=null, FIRST_NAME=test, LAST_NAME=FROM BROWSER}]
+2014-12-23 20:42:45.265  INFO ${PID:- } [http-nio-18080-exec-5] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JPA findAll RESULT: 
+2014-12-23 20:42:45.265  INFO ${PID:- } [http-nio-18080-exec-5] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[User{id=50, firstName='test', lastName='FROM BROWSER', birthDate=null}, User{id=51, firstName='test', lastName='FROM BROWSER', birthDate=null}]
+2014-12-23 20:59:39.741 ERROR ${PID:- } [http-nio-18080-exec-8] --- d.c.a.c.web.controller.MyRestController  : listUsers CONTROLLER INVOKED
+2014-12-23 20:59:39.741  INFO ${PID:- } [http-nio-18080-exec-8] --- d.c.a.c.sevice.impl.UserServiceImpl      : listUsers INVOKED
+2014-12-23 20:59:39.769  INFO ${PID:- } [http-nio-18080-exec-8] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JDBC TEMPLATE QueryForList RESULT: 
+2014-12-23 20:59:39.769  INFO ${PID:- } [http-nio-18080-exec-8] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[{ID=50, BIRTH_DATE=null, FIRST_NAME=test, LAST_NAME=FROM BROWSER}, {ID=51, BIRTH_DATE=null, FIRST_NAME=test, LAST_NAME=FROM BROWSER}]
+2014-12-23 20:59:39.820  INFO ${PID:- } [http-nio-18080-exec-8] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JPA findAll RESULT: 
+2014-12-23 20:59:39.820  INFO ${PID:- } [http-nio-18080-exec-8] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[User{id=50, firstName='test', lastName='FROM BROWSER', birthDate=null}, User{id=51, firstName='test', lastName='FROM BROWSER', birthDate=null}]
+2014-12-23 21:00:22.160 ERROR ${PID:- } [http-nio-18080-exec-9] --- d.c.a.c.web.controller.MyRestController  : listUsers CONTROLLER INVOKED
+2014-12-23 21:00:22.160  INFO ${PID:- } [http-nio-18080-exec-9] --- d.c.a.c.sevice.impl.UserServiceImpl      : listUsers INVOKED
+2014-12-23 21:00:22.185  INFO ${PID:- } [http-nio-18080-exec-9] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JDBC TEMPLATE QueryForList RESULT: 
+2014-12-23 21:00:22.186  INFO ${PID:- } [http-nio-18080-exec-9] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[{ID=50, BIRTH_DATE=null, FIRST_NAME=test, LAST_NAME=FROM BROWSER}, {ID=51, BIRTH_DATE=null, FIRST_NAME=test, LAST_NAME=FROM BROWSER}]
+2014-12-23 21:00:22.213  INFO ${PID:- } [http-nio-18080-exec-9] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JPA findAll RESULT: 
+2014-12-23 21:00:22.213  INFO ${PID:- } [http-nio-18080-exec-9] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[User{id=50, firstName='test', lastName='FROM BROWSER', birthDate=null}, User{id=51, firstName='test', lastName='FROM BROWSER', birthDate=null}]
+2014-12-23 21:02:19.753 ERROR ${PID:- } [http-nio-18080-exec-10] --- d.c.a.c.web.controller.MyRestController  : listUsers CONTROLLER INVOKED
+2014-12-23 21:02:19.754  INFO ${PID:- } [http-nio-18080-exec-10] --- d.c.a.c.sevice.impl.UserServiceImpl      : listUsers INVOKED
+2014-12-23 21:02:19.780  INFO ${PID:- } [http-nio-18080-exec-10] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JDBC TEMPLATE QueryForList RESULT: 
+2014-12-23 21:02:19.781  INFO ${PID:- } [http-nio-18080-exec-10] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[{ID=50, BIRTH_DATE=null, FIRST_NAME=test, LAST_NAME=FROM BROWSER}, {ID=51, BIRTH_DATE=null, FIRST_NAME=test, LAST_NAME=FROM BROWSER}]
+2014-12-23 21:02:19.805  INFO ${PID:- } [http-nio-18080-exec-10] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JPA findAll RESULT: 
+2014-12-23 21:02:19.806  INFO ${PID:- } [http-nio-18080-exec-10] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[User{id=50, firstName='test', lastName='FROM BROWSER', birthDate=null}, User{id=51, firstName='test', lastName='FROM BROWSER', birthDate=null}]
+2014-12-23 21:02:33.620 ERROR ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.web.controller.MyRestController  : addUser CONTROLLER INVOKED
+2014-12-23 21:02:33.620  INFO ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## addUser INVOKED
+2014-12-23 21:02:33.620  INFO ${PID:- } [http-nio-18080-exec-1] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##User{id=null, firstName='test XXX', lastName='FROM BROWSER', birthDate=null}
+2014-12-23 21:02:44.252 ERROR ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.web.controller.MyRestController  : listUsers CONTROLLER INVOKED
+2014-12-23 21:02:44.252  INFO ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.sevice.impl.UserServiceImpl      : listUsers INVOKED
+2014-12-23 21:02:44.278  INFO ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JDBC TEMPLATE QueryForList RESULT: 
+2014-12-23 21:02:44.279  INFO ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[{ID=50, BIRTH_DATE=null, FIRST_NAME=test, LAST_NAME=FROM BROWSER}, {ID=51, BIRTH_DATE=null, FIRST_NAME=test, LAST_NAME=FROM BROWSER}, {ID=52, BIRTH_DATE=null, FIRST_NAME=test XXX, LAST_NAME=FROM BROWSER}]
+2014-12-23 21:02:44.303  INFO ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!## JPA findAll RESULT: 
+2014-12-23 21:02:44.303  INFO ${PID:- } [http-nio-18080-exec-2] --- d.c.a.c.sevice.impl.UserServiceImpl      : ##!##[User{id=50, firstName='test', lastName='FROM BROWSER', birthDate=null}, User{id=51, firstName='test', lastName='FROM BROWSER', birthDate=null}, User{id=52, firstName='test XXX', lastName='FROM BROWSER', birthDate=null}]
+2014-12-26 23:49:14.725  INFO ${PID:- } [Thread-2] --- ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b58ba6: startup date [Tue Dec 23 20:41:05 CET 2014]; root of context hierarchy
+2014-12-26 23:49:15.002  INFO ${PID:- } [Thread-2] --- o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2014-12-26 23:49:15.049  INFO ${PID:- } [Thread-2] --- j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2014-12-26 23:49:15.097  INFO ${PID:- } [Thread-2] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2014-12-26 23:49:15.516  INFO ${PID:- } [Thread-2] --- org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
